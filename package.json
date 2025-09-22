@@ -1,0 +1,33 @@
+{
+  "name": "age-calculator",
+  "version": "1.0.0",
+  "description": "A beautiful, modern age calculator that calculates your exact age and displays interesting facts about your life!",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'No build step required for vanilla JS project'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "age",
+    "calculator", 
+    "javascript",
+    "html",
+    "css",
+    "vanilla-js",
+    "responsive"
+  ],
+  "author": "ajayn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "homepage": ".",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
